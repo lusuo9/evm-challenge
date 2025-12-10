@@ -38,3 +38,18 @@ pub mod gate_lock {
 ### Solution
 The solution should be able to run as many times as we want given the random payloads and always have the contract function `isSolved` return true.
 Your solution should go in /bin/solution.rs
+
+## Run the project (add-on)
+To run this project, you need to first build the contract using forge: 
+
+```shell
+$ cd ./contracts/
+$ forge build
+```
+
+Then run the Rust program:
+```shell
+$ cd ..
+$ cargo run
+```
+It should exit without error.
