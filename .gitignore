@@ -1,0 +1,5 @@
+target
+bin/sorella_solution.rs
+contracts/out
+contracts/cache
+src/contract_bindings/mod.rs
