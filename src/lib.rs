@@ -1,4 +1,6 @@
-pub mod contract_bindings;
+pub mod contract_bindings {
+    include!(concat!(env!("OUT_DIR"), "/contract_bindings.rs"));
+}
 pub mod environment_deployment;
 
 use alloy::primitives::U160;
